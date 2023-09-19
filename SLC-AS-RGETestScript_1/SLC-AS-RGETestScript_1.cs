@@ -64,7 +64,8 @@ namespace SLC_AS_RGETestScript_1
 		/// <param name="engine">Link with SLAutomation process.</param>
 		public void Run(IEngine engine)
 		{
-			engine.GenerateInformation("Hello world!");
+			engine.GenerateInformation("Hello world 123");
+
 		}
 	}
 }
