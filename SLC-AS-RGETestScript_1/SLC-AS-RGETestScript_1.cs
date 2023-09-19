@@ -51,6 +51,7 @@ DATE		VERSION		AUTHOR			COMMENTS
 
 namespace SLC_AS_RGETestScript_1
 {
+    using Empower.Library.Room0;
     using Skyline.DataMiner.Automation;
 
     /// <summary>
@@ -65,7 +66,8 @@ namespace SLC_AS_RGETestScript_1
 		public void Run(IEngine engine)
 		{
 			engine.GenerateInformation("Hello world 123");
-
+			var order = OrderFactory.CreateOrder("Order 66");
+			order.Dispatch("Palpatine");
 		}
 	}
 }
