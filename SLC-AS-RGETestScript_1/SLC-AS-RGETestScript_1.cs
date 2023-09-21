@@ -66,7 +66,7 @@ namespace SLC_AS_RGETestScript_1
 		public void Run(IEngine engine)
 		{
 			engine.GenerateInformation("Hello world 123");
-			var order = OrderFactory.CreateOrder("Order 66");
+			var order = OrderFactory.CreateOrder("JansChange Order 66");
 			order.Dispatch("Palpatine");
 		}
 	}
